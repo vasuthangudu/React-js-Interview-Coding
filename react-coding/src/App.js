@@ -1,15 +1,11 @@
-
-// import CounterApp from './CounterApp';
-
-import TodoList from './TodoList';
-
+import React from 'react'
+import DeleteItem from './deleteitem'
 function App() {
   return (
-    <div >
-    
-      <TodoList/>
+    <div>
+      <DeleteItem />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
